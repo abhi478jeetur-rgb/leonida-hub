@@ -1,0 +1,23 @@
+# Leonida Hub
+
+> Unofficial GTA 6 fan hub with sourced, dated facts: launch countdown, India price tracker, a download time calculator, worldwide unlock times, an editions comparison, a preload guide, a Hindi FAQ and a PC release tracker. Not affiliated with Rockstar Games or Take-Two Interactive.
+
+## Pages
+
+- [Home — GTA 6 countdown](https://leonida-hub-zeta.vercel.app/): Live countdown to the visitor's local-midnight unlock on 19 November 2026, confirmed facts and links to all tools.
+- [GTA 6 Price in India](https://leonida-hub-zeta.vercel.app/price.html): Standard ₹5,999 and Ultimate ₹7,499 on PlayStation Store India and Xbox Store India; Amazon India boxed Standard ₹5,999. Each price carries its source and check date.
+- [GTA 6 Download Time Calculator](https://leonida-hub-zeta.vercel.app/download-calculator.html): Download time for the reported up-to-212 GB install at any internet speed, plus a PS5/Xbox storage fit check.
+- [GTA 6 Unlock Times](https://leonida-hub-zeta.vercel.app/unlock-times.html): Midnight-local unlock table for Auckland, Sydney, Tokyo, Mumbai, Dubai, London, New York and Los Angeles, a timezone converter, and a factual explainer of the New Zealand trick.
+- [GTA 6 Editions](https://leonida-hub-zeta.vercel.app/editions.html): Standard vs Ultimate — 16 confirmed Ultimate bonus items, the Vintage Vice City Pack launch offer, and the ₹1,500 / $20 upgrade path.
+- [GTA 6 Preload Guide](https://leonida-hub-zeta.vercel.app/preload.html): PS5 and Xbox preload steps (open since 10 November 2026), the required PS5 system update, storage tips and unlock behaviour.
+- [GTA 6 Hindi FAQ](https://leonida-hub-zeta.vercel.app/hindi-faq.html): FAQ in simple Hindi (Devanagari): no Hindi subtitles or dubbing; India price; platforms; PC status; preload.
+- [GTA 6 PC Release Tracker](https://leonida-hub-zeta.vercel.app/pc-tracker.html): No PC version announced. Dated timeline of official statements kept separate from reports (GamesBeat's unconfirmed Q1 2027 report), plus GTA 5 / RDR2 PC gap history.
+
+## Key facts (checked 18 November 2026)
+
+- GTA 6 releases Thursday 19 November 2026 at 12:00 AM local time in every region, on PS5 and Xbox Series X|S only.
+- India price: ₹5,999 Standard, ₹7,499 Ultimate. US price: $79.99 Standard, $99.99 Ultimate.
+- Install size: up to 212 GB depending on console (reported from Rockstar Newswire coverage).
+- Preload opened 10 November 2026 for digital pre-orders; boxed copies contain a download code, not a disc.
+- Languages: 13 text/subtitle languages; voice acting in English only; Hindi is not supported.
+- PC: no version, date or system requirements announced by Rockstar or Take-Two.

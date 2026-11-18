@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 Download Time Calculator — How Long Does the 212 GB Download Take?</title>
+<meta name="description" content="Enter your internet speed and see how long the GTA 6 download (up to 212 GB, reported) takes on PS5 or Xbox — plus a storage check: does GTA 6 fit on your console's usable space?">
+<link rel="canonical" href="https://leonida-hub-zeta.vercel.app/download-calculator.html">
+<meta name="theme-color" content="#0c0218">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Leonida Hub">
+<meta property="og:title" content="GTA 6 Download Time Calculator — 212 GB on Your Speed">
+<meta property="og:description" content="Pick your Mbps and get your GTA 6 download time instantly, the time it would finish if you start now, and a will-it-fit storage check for PS5 and Xbox.">
+<meta property="og:url" content="https://leonida-hub-zeta.vercel.app/download-calculator.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GTA 6 Download Time Calculator">
+<meta name="twitter:description" content="GTA 6 needs up to 212 GB. At 50 Mbps that's about 10.5 hours. Calculate your own download time and check your console storage.">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Leonida Hub", "item": "https://leonida-hub-zeta.vercel.app/"},
+    {"@type": "ListItem", "position": 2, "name": "GTA 6 Download Time Calculator", "item": "https://leonida-hub-zeta.vercel.app/download-calculator.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "GTA 6 Download Time Calculator",
+  "url": "https://leonida-hub-zeta.vercel.app/download-calculator.html",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "description": "Calculates how long the GTA 6 download (up to 212 GB, reported) takes at a given internet speed, and checks console storage."
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="index.html">LEONIDA <span>HUB</span></a>
+    <nav class="main" aria-label="Main">
+      <a href="price.html">Price in India</a>
+      <a href="download-calculator.html" aria-current="page">Download Calculator</a>
+      <a href="unlock-times.html">Unlock Times</a>
+      <a href="editions.html">Editions</a>
+      <a href="preload.html">Preload Guide</a>
+      <a href="hindi-faq.html">Hindi FAQ</a>
+      <a href="pc-tracker.html">PC Tracker</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="crumbs"><a href="index.html">Home</a> › Download Time Calculator</p>
+  <h1 class="page">GTA 6 Download Time Calculator</h1>
+  <div class="answer">
+    <p><strong>GTA 6 needs up to 212 GB of free space</strong> (install size reported from Rockstar's Newswire coverage; the exact figure varies by console). At 100 Mbps the download takes roughly <strong>5 hours 15 minutes</strong> in real-world conditions; at 50 Mbps, about <strong>10 hours 30 minutes</strong>. Enter your own speed below for your number — and start the <a href="preload.html">preload</a> well before the <a href="unlock-times.html">midnight unlock</a>.</p>
+  </div>
+
+  <div class="tool">
+    <label for="speed">Your internet speed (Mbps)</label>
+    <div class="chips" id="speed-chips">
+      <button type="button" class="chip" data-speed="10">10</button>
+      <button type="button" class="chip" data-speed="25">25</button>
+      <button type="button" class="chip on" data-speed="50">50</button>
+      <button type="button" class="chip" data-speed="100">100</button>
+      <button type="button" class="chip" data-speed="200">200</button>
+      <button type="button" class="chip" data-speed="500">500</button>
+      <button type="button" class="chip" data-speed="1000">1000</button>
+    </div>
+    <input type="number" id="speed" min="1" max="10000" step="any" value="50" aria-label="Custom speed in Mbps">
+    <label for="size">Download size (GB)</label>
+    <input type="number" id="size" min="1" max="1000" step="any" value="212" aria-label="Download size in GB">
+    <p class="note">Default 212 GB is the reported maximum install size. Real-world efficiency is estimated at 90% of your rated speed (overhead, server load, Wi-Fi).</p>
+    <div class="result" id="result" aria-live="polite"></div>
+  </div>
+
+  <h2>Will GTA 6 fit on your console?</h2>
+  <p>Consoles reserve part of the drive for the system, so usable space is less than the number on the box. GTA 6 needs up to 212 GB free. Figures below are the widely reported usable capacities — check your own console's storage screen for the exact free space.</p>
+  <div class="tool">
+    <label for="console">Your console</label>
+    <select id="console">
+      <option value="667">PlayStation 5 (825 GB) — ~667 GB usable</option>
+      <option value="848">PlayStation 5 Slim / PS5 (1 TB) — ~848 GB usable</option>
+      <option value="802">Xbox Series X (1 TB) — ~802 GB usable</option>
+      <option value="364">Xbox Series S (512 GB) — ~364 GB usable</option>
+      <option value="802">Xbox Series S (1 TB) — ~802 GB usable</option>
+      <option value="custom">Enter my free space manually…</option>
+    </select>
+    <label for="free">Free space available (GB)</label>
+    <input type="number" id="free" min="0" max="4000" step="any" value="667" aria-label="Free space in GB">
+    <div class="result" id="fit-result" aria-live="polite"></div>
+  </div>
+  <p class="note">Tight on space? The fastest wins: move PS4/Xbox One games to an external USB drive, delete game capture clips, and remember a PS5 system update (~1.2 GB) is also required before GTA 6 will launch. Full steps in the <a href="preload.html">preload guide</a>.</p>
+
+  <h2>Quick reference: download time by speed</h2>
+  <table>
+    <thead><tr><th>Speed</th><th class="num">Ideal time (212 GB)</th><th class="num">Real-world (~90% efficiency)</th></tr></thead>
+    <tbody>
+      <tr><td>10 Mbps</td><td class="num">47 h 07 m</td><td class="num">52 h 21 m</td></tr>
+      <tr><td>25 Mbps</td><td class="num">18 h 51 m</td><td class="num">20 h 56 m</td></tr>
+      <tr><td>50 Mbps</td><td class="num">9 h 25 m</td><td class="num">10 h 28 m</td></tr>
+      <tr><td>100 Mbps</td><td class="num">4 h 43 m</td><td class="num">5 h 14 m</td></tr>
+      <tr><td>200 Mbps</td><td class="num">2 h 21 m</td><td class="num">2 h 37 m</td></tr>
+      <tr><td>500 Mbps</td><td class="num">57 m</td><td class="num">1 h 03 m</td></tr>
+      <tr><td>1000 Mbps</td><td class="num">28 m</td><td class="num">31 m</td></tr>
+    </tbody>
+  </table>
+  <p class="note">How the maths works: download time = size in gigabits ÷ speed in Mbps. 212 GB ≈ 1,696 gigabits (using 1 GB = 8 gigabits), so at 100 Mbps the ideal time is 16,960 seconds ≈ 4 h 43 m. Consoles also install while downloading, which can add time on slower connections.</p>
+
+  <p class="meta-line">Last updated 18 November 2026 · Sources: install size “up to 212 GB depending on device” — Rockstar Newswire as reported by TechWeu and Mathrubhumi (Nov 2026). Usable console capacities are widely reported figures; your console's storage screen is the final word.</p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="index.html">Home</a><a href="price.html">Price in India</a><a href="download-calculator.html">Download Calculator</a><a href="unlock-times.html">Unlock Times</a><a href="editions.html">Editions</a><a href="preload.html">Preload Guide</a><a href="hindi-faq.html">Hindi FAQ</a><a href="pc-tracker.html">PC Tracker</a>
+    </nav>
+    <p>Unofficial fan project. Not affiliated with Rockstar Games or Take-Two Interactive. Grand Theft Auto, GTA and GTA VI are trademarks of Take-Two Interactive.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var speedEl=document.getElementById('speed'), sizeEl=document.getElementById('size'),
+      res=document.getElementById('result');
+  function fmt(sec){
+    if(!isFinite(sec)||sec<0) return '—';
+    var h=Math.floor(sec/3600), m=Math.floor(sec%3600/60), s=Math.round(sec%60);
+    if(h>=1) return h+' h '+ (m<10?'0':'')+m +' m';
+    if(m>=1) return m+' m '+ (s<10?'0':'')+s +' s';
+    return s+' s';
+  }
+  function calc(){
+    var mbps=parseFloat(speedEl.value), gb=parseFloat(sizeEl.value);
+    if(!(mbps>0)||!(gb>0)){ res.innerHTML='Enter a speed and a size to see your download time.'; return; }
+    var ideal = gb*8*1000/mbps;         // seconds at full rated speed
+    var real  = ideal/0.9;              // ~90% real-world efficiency
+    var finish = new Date(Date.now()+real*1000);
+    res.innerHTML = 'At <b>'+mbps+' Mbps</b>, downloading <b>'+gb+' GB</b> takes about <b class="big">'+fmt(real)+'</b> in real-world conditions (ideal: '+fmt(ideal)+').<br>If you start now, it finishes around <b>'+finish.toLocaleString(undefined,{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+'</b> your time. GTA 6 unlocks at midnight local time on 19 Nov — <a href="preload.html">preload early</a> if your time is longer than the wait.';
+  }
+  document.getElementById('speed-chips').addEventListener('click',function(e){
+    var b=e.target.closest('.chip'); if(!b) return;
+    document.querySelectorAll('#speed-chips .chip').forEach(function(c){c.classList.remove('on')});
+    b.classList.add('on'); speedEl.value=b.dataset.speed; calc();
+  });
+  speedEl.addEventListener('input',calc); sizeEl.addEventListener('input',calc);
+  calc();
+
+  var consoleEl=document.getElementById('console'), freeEl=document.getElementById('free'),
+      fit=document.getElementById('fit-result');
+  function fitCalc(){
+    var free=parseFloat(freeEl.value), need=212;
+    if(!(free>=0)){ fit.innerHTML='Enter your free space to check.'; return; }
+    if(free>=need){
+      fit.innerHTML='<b style="color:var(--green)">It fits.</b> With '+free+' GB free, GTA 6 (up to 212 GB) leaves you about <b>'+Math.round(free-need)+' GB</b> to spare. Keep a little extra room for the day-one update and save files.';
+    } else {
+      fit.innerHTML='<b style="color:var(--sun)">Not yet.</b> With '+free+' GB free you are about <b>'+Math.ceil(need-free)+' GB short</b> of the reported 212 GB install size. Move older games to external storage or delete captures, then check again.';
+    }
+  }
+  consoleEl.addEventListener('change',function(){
+    if(consoleEl.value!=='custom'){ freeEl.value=consoleEl.value; }
+    fitCalc();
+  });
+  freeEl.addEventListener('input',fitCalc);
+  fitCalc();
+})();
+</script>
+</body>
+</html>
